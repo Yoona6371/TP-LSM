@@ -1,7 +1,7 @@
 # TP-LSM
-TP-LSM: Temporal Pyramid Long Short-Term Time Modeling Network for Multi-label Action Detection
+**TP-LSM: Temporal Pyramid Long Short-Term Time Modeling Network for Multi-label Action Detection**
 
-![model]()
+![model](https://github.com/Yoona6371/TP-LSM/blob/main/model2.jpg)
 
 In this repository, we provide an implementation of "TP-LSM: Temporal Pyramid Long Short-Term Time Modeling Network for Multi-label Action Detection" on Charades dataset (Localization setting, i.e., Charades_v1_localize). If you want to train and evaluate TP-LSM, you can follow the following steps.
 
