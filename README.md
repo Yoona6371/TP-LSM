@@ -29,4 +29,8 @@ Please satisfy the following dependencies to train TP-LSM correctly:
 + The network implementation is in ./TPLSM/ folder.
 + RGB and Optical flow are following the same training process. Note that, we mainly focus on the pure RGB result in the paper.
 + In practice, we trained TP-LSM with a Tesla V100 GPU to shrink the computation time. But as TP-LSM is not large, GTX 1080 Ti can be sufficient for running the network.
-+ For the evaluation metrics: the standard frame-mAP [link](https://github.com/piergiaj/super-events-cvpr18/blob/master/apmeter.py) is following the Superevent and action-conditional metrics [link](https://github.com/ptirupat/MLAD/blob/main/src/cooccur_metric.py) is following the MLAD.
++ For the evaluation metrics: [the standard frame-mAP](https://github.com/piergiaj/super-events-cvpr18/blob/master/apmeter.py) is following the Superevent and [action-conditional metrics](https://github.com/ptirupat/MLAD/blob/main/src/cooccur_metric.py) is following the MLAD.
+
+## Features
+Download the features used for training the models from the following links
+MultiTHUMOS : https://drive.google.com/drive/folders/1w4bzPtj9UucC_altXOY-TOPKALvRq5Sx?usp=sharing
