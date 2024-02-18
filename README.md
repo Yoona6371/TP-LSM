@@ -1,12 +1,12 @@
 # TP-LSM
-**TP-LSM: Temporal Pyramid Long Short-Term Time Modeling Network for Multi-label Action Detection**
+**TP-LSM: Visual Temporal Pyramidal Time Modeling Network to Multi-label Action Detection in Image-based AI**
 
 ![model](https://github.com/Yoona6371/TP-LSM/blob/main/model2.jpg)
 
-In this repository, we provide an implementation of "TP-LSM: Temporal Pyramid Long Short-Term Time Modeling Network for Multi-label Action Detection" on Charades dataset (Localization setting, i.e., Charades_v1_localize). If you want to train and evaluate TP-LSM, you can follow the following steps.
+In this repository, we provide an implementation of "TP-LSM: Visual Temporal Pyramidal Time Modeling Network to Multi-label Action Detection in Image-based AI" on Charades dataset (Localization setting, i.e., Charades_v1_localize). If you want to train and evaluate TP-LSM, you can follow the following steps.
 
 ## Prepare the I3D feature
-Like the previous works (e.g. TGM, PDAN), MS-TCT is built on top of the pre-trained I3D features. Thus, feature extraction is needed before training the network.
+Like the previous works (e.g. TGM, PDAN), TP-LSM is built on top of the pre-trained I3D features. Thus, feature extraction is needed before training the network.
 
 1. Please download the Charades dataset (24 fps version) from this [link](https://prior.allenai.org/projects/charades).
 2. Follow this [repository](https://github.com/piergiaj/pytorch-i3d) to extract the snippet-level I3D feature.
